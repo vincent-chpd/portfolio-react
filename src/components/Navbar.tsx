@@ -39,7 +39,8 @@ const Navbar = () => {
         >
           <span className="relative z-10">
             {" "}
-            <span className="text-glow text-foreground">Vincent</span>Portfolio
+            <span className="text-glow text-foreground">Vincent</span>
+            Chaussepied
           </span>
         </a>
 
