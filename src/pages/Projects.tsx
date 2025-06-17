@@ -3,13 +3,13 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Project One",
+    title: "Pokemon Card Finder",
     description:
-      "This is a description of project one using some technologies.",
-    image: "/projects/placeholder.png",
-    tags: ["React", "Node.js", "CSS"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "Website to search for Pokemon Card using the Pokemon TCG API.",
+    image: "/projects/pokemon-app.png",
+    tags: ["React", "Typescript", "CSS"],
+    demoUrl: "https://pokecard-app.netlify.app/",
+    githubUrl: "https://github.com/vincent-chpd/react--pokemon-card-app",
   },
   {
     id: 2,
@@ -74,7 +74,7 @@ const Projects = () => {
 
                 <h3 className="text-xl font-semibold mt-6">{project.title}</h3>
                 <p className="text-muted-foreground text-sm mb-4">
-                  {project.title}
+                  {project.description}
                 </p>
 
                 <div className="flex justify-between items-center">
